@@ -46,3 +46,30 @@ git restore --stage <file name>
 
 1. git rm <file name>
 2. git commit
+
+### 添加远程库Github
+
+1. 打开Git Bash创建SSH Key 
+
+   ```bash
+   ssh-keygen -t rsa -C "youremail@example.com"
+   ```
+
+2. GitHub上添加SSH Key
+
+3. Github上创建一个新仓库
+
+4. 在要上传的本地目录下
+
+   ```bash
+   git remote add origin git@github.com:michaelliao/learngit.git
+   ```
+
+5. 推送本地库内容到远程库
+
+   ```bash
+   git push -u origin master
+   ```
+
+
+
