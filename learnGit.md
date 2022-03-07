@@ -42,3 +42,7 @@ git checkout -- <file name> // 可以撤销add之前的修改，也可以撤销a
 
 git restore --stage <file name>
 
+### 删除文件
+
+1. git rm <file name>
+2. git commit
