@@ -33,3 +33,12 @@ git log
 ### 查看命令历史（做过哪些操作）
 
 git reflog
+
+### 撤销修改
+
+git checkout -- <file name> // 可以撤销add之前的修改，也可以撤销add之后的修改
+
+### 撤销添加到暂存区
+
+git restore --stage <file name>
+
