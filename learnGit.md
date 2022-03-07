@@ -8,8 +8,11 @@ git init
 
 ### 添加文件到仓库
 
-1. git add <file>
-2. git commit -m <message>
+1. git add <file>	// 将文件提交到暂存区
+
+2. git commit -m <message>    // 将暂存区的文件提交到分支
+
+   ![image-20220307104943631](C:\Users\12524\learnGit\learnGit.assets\image-20220307104943631.png)
 
 ### 查看工作区状态
 
