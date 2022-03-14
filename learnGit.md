@@ -71,5 +71,5 @@ git restore --stage <file name>
    git push -u origin master
    ```
 
-
+### 从远程库克隆
 
