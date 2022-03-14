@@ -73,3 +73,9 @@ git restore --stage <file name>
 
 ### 从远程库克隆
 
+从github上克隆仓库到本地
+
+```bash
+git clone git@github.com:michaelliao/gitskills.git
+```
+
